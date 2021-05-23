@@ -1,0 +1,160 @@
+object MainForm: TMainForm
+  Left = 229
+  Height = 408
+  Top = 115
+  Width = 636
+  Caption = 'База данных для обслуживаня клиентов автозаправки'
+  ClientHeight = 388
+  ClientWidth = 636
+  Menu = MainMenu1
+  LCLVersion = '2.0.10.0'
+  object SGMain: TStringGrid
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = SGSort
+    Left = 1
+    Height = 157
+    Top = 1
+    Width = 634
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 1
+    BorderSpacing.Top = 1
+    BorderSpacing.Right = 1
+    BorderSpacing.Bottom = 10
+    ColCount = 6
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 0
+    ColWidths = (
+      78
+      192
+      78
+      73
+      114
+      94
+    )
+    Cells = (
+      6
+      0
+      0
+      'Код покупки'
+      1
+      0
+      'Ф.И.О. клиента'
+      2
+      0
+      'Вид топлива'
+      3
+      0
+      'Цена за 1 л.'
+      4
+      0
+      'Количество литров'
+      5
+      0
+      'Сумма покупки'
+    )
+  end
+  object SGSort: TStringGrid
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 1
+    Height = 219
+    Top = 168
+    Width = 634
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 1
+    BorderSpacing.Right = 1
+    BorderSpacing.Bottom = 1
+    ColCount = 6
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 1
+    ColWidths = (
+      76
+      196
+      75
+      72
+      116
+      94
+    )
+    Cells = (
+      6
+      0
+      0
+      'Код покупки'
+      1
+      0
+      'Ф.И.О. клиента'
+      2
+      0
+      'Вид топлива'
+      3
+      0
+      'Цена за 1 л.'
+      4
+      0
+      'Количество литров'
+      5
+      0
+      'Сумма покупки'
+    )
+  end
+  object MainMenu1: TMainMenu
+    Left = 248
+    Top = 128
+    object MenuIFile: TMenuItem
+      Caption = 'Файл'
+      object MenuFileCreateTip: TMenuItem
+        Caption = 'Создать типизированный файл'
+        OnClick = MenuFileCreateTipClick
+      end
+      object MenuFileCreatetxt: TMenuItem
+        Caption = 'Создать TXT файл'
+        OnClick = MenuFileCreatetxtClick
+      end
+      object MenuFileOpenTip: TMenuItem
+        Caption = 'Открыть типизированнный файл'
+        OnClick = MenuFileOpenTipClick
+      end
+      object MenuFileSaveTip: TMenuItem
+        Caption = 'Сохранить в Типизированный файл'
+        OnClick = MenuFileSaveTipClick
+      end
+      object MenuFileSaveTxt: TMenuItem
+        Caption = 'Сохранить в Текстовый файл'
+      end
+    end
+    object MenuSp: TMenuItem
+      Caption = 'Список'
+      object MenuSpCreate: TMenuItem
+        Caption = 'Создать'
+        OnClick = MenuSpCreateClick
+      end
+      object MenuSPSorFam: TMenuItem
+        Caption = 'Сортировать по фамилии'
+        OnClick = MenuSPSorFamClick
+      end
+    end
+    object MenuSG: TMenuItem
+      Caption = 'Таблица'
+      object MenuSGMainClear: TMenuItem
+        Caption = 'Очистить первую таблицу'
+        OnClick = MenuSGMainClearClick
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 288
+    Top = 128
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 328
+    Top = 128
+  end
+end

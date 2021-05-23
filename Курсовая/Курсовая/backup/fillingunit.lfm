@@ -1,0 +1,182 @@
+object FormFilling: TFormFilling
+  Left = 339
+  Height = 367
+  Top = 160
+  Width = 241
+  Caption = 'Форма заполнения'
+  ClientHeight = 367
+  ClientWidth = 241
+  LCLVersion = '2.0.10.0'
+  object EditFam: TEdit
+    Left = 8
+    Height = 23
+    Top = 28
+    Width = 224
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    AnchorSideLeft.Control = EditFam
+    AnchorSideRight.Control = EditFam
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = EditFam
+    Left = 8
+    Height = 15
+    Top = 11
+    Width = 224
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Bottom = 2
+    Caption = 'Фамилия'
+    ParentColor = False
+  end
+  object EditName: TEdit
+    Left = 8
+    Height = 23
+    Top = 72
+    Width = 224
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = EditFam
+    AnchorSideRight.Control = EditFam
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = EditName
+    Left = 8
+    Height = 15
+    Top = 55
+    Width = 224
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Bottom = 2
+    Caption = 'Имя'
+    ParentColor = False
+  end
+  object EditOtch: TEdit
+    Left = 8
+    Height = 23
+    Top = 112
+    Width = 224
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    AnchorSideLeft.Control = EditOtch
+    AnchorSideRight.Control = EditOtch
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = EditOtch
+    Left = 8
+    Height = 15
+    Top = 95
+    Width = 224
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Bottom = 2
+    Caption = 'Отчество'
+    ParentColor = False
+  end
+  object ComboBox1: TComboBox
+    Left = 8
+    Height = 23
+    Top = 208
+    Width = 96
+    ItemHeight = 15
+    Items.Strings = (
+      'АИ-80'
+      'АИ-92'
+      'АИ-95'
+      'АИ-98'
+      'АИ-100'
+      'Дизель'
+      'Газ'
+    )
+    Style = csDropDownList
+    TabOrder = 3
+  end
+  object Label4: TLabel
+    AnchorSideLeft.Control = ComboBox1
+    AnchorSideRight.Control = ComboBox1
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = ComboBox1
+    Left = 8
+    Height = 15
+    Top = 191
+    Width = 96
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Bottom = 2
+    Caption = 'Вид топлива'
+    ParentColor = False
+  end
+  object MemoPrice: TMemo
+    AnchorSideLeft.Control = ComboBox1
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 114
+    Height = 206
+    Top = 160
+    Width = 126
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 10
+    BorderSpacing.Right = 1
+    BorderSpacing.Bottom = 1
+    Color = clWhite
+    Enabled = False
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'Цены'
+      'АИ-80   -  41.25 руб.'
+      'АИ-92   -  46.78 руб.'
+      'АИ-95   -  50.08 руб.'
+      'АИ-98   -  53.12 руб.'
+      'АИ-100 -  56,24 руб.'
+      'Дизель -  52.65 руб.'
+      'Газ        -  29.66 руб.'
+    )
+    OnChange = MemoPriceChange
+    ParentFont = False
+    TabOrder = 4
+  end
+  object ButtonAdd: TButton
+    Left = 8
+    Height = 25
+    Top = 264
+    Width = 99
+    Caption = 'Добавить'
+    OnClick = ButtonAddClick
+    TabOrder = 5
+  end
+  object ButtonClose: TButton
+    Left = 8
+    Height = 25
+    Top = 328
+    Width = 96
+    Caption = 'Закрыть'
+    OnClick = ButtonCloseClick
+    TabOrder = 6
+  end
+  object EditLitr: TEdit
+    Left = 8
+    Height = 23
+    Top = 160
+    Width = 96
+    TabOrder = 7
+    Text = '1'
+  end
+  object Label5: TLabel
+    AnchorSideLeft.Control = EditLitr
+    AnchorSideRight.Control = EditLitr
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = EditLitr
+    Left = 8
+    Height = 15
+    Top = 143
+    Width = 96
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Bottom = 2
+    Caption = 'Кол-во литров'
+    ParentColor = False
+  end
+end

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="Kurs.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos X="31" Y="10"/>
+        <UsageCount Value="89"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainU"/>
+        <TopLine Value="78"/>
+        <CursorPos X="21" Y="91"/>
+        <UsageCount Value="89"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="gasstationunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GasStationUnit"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="376"/>
+        <CursorPos X="43" Y="396"/>
+        <UsageCount Value="89"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="fillingunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormFilling"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FillingUnit"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="85" Y="65"/>
+        <UsageCount Value="85"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10144"/>
+        <CursorPos Y="9946"/>
+        <UsageCount Value="5"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="38" Column="14" TopLine="38"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="39" Column="14" TopLine="39"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="40" Column="14" TopLine="40"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="41" Column="14" TopLine="41"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="42" Column="14" TopLine="42"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="43" Column="14" TopLine="10"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="42" Column="14" TopLine="10"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="41" Column="14" TopLine="10"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="40" Column="14" TopLine="10"/>
+      </Position9>
+      <Position10>
+        <Filename Value="gasstationunit.pas"/>
+        <Caret Line="285" Column="33" TopLine="266"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="60" Column="3" TopLine="14"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="61" Column="3" TopLine="27"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="63" Column="3" TopLine="29"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="74" Column="16" TopLine="41"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="79" Column="3" TopLine="46"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="57" Column="26" TopLine="37"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="58" TopLine="38"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="62" Column="122" TopLine="45"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="79" Column="20" TopLine="59"/>
+      </Position19>
+      <Position20>
+        <Filename Value="gasstationunit.pas"/>
+        <Caret Line="300" Column="43" TopLine="299"/>
+      </Position20>
+      <Position21>
+        <Filename Value="gasstationunit.pas"/>
+        <Caret Line="307" Column="86" TopLine="148"/>
+      </Position21>
+      <Position22>
+        <Filename Value="gasstationunit.pas"/>
+        <Caret Line="358" Column="14" TopLine="324"/>
+      </Position22>
+      <Position23>
+        <Filename Value="gasstationunit.pas"/>
+        <Caret Line="364" Column="10" TopLine="335"/>
+      </Position23>
+      <Position24>
+        <Filename Value="gasstationunit.pas"/>
+        <Caret Line="355" Column="16" TopLine="337"/>
+      </Position24>
+      <Position25>
+        <Filename Value="gasstationunit.pas"/>
+        <Caret Line="358" Column="30" TopLine="338"/>
+      </Position25>
+      <Position26>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="76" Column="69" TopLine="53"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="78" Column="69" TopLine="55"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mainu.pas"/>
+        <Caret Line="109" Column="16" TopLine="78"/>
+      </Position28>
+      <Position29>
+        <Filename Value="gasstationunit.pas"/>
+        <Caret Line="136" Column="14" TopLine="126"/>
+      </Position29>
+      <Position30>
+        <Filename Value="gasstationunit.pas"/>
+        <Caret Line="392" Column="81" TopLine="366"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
